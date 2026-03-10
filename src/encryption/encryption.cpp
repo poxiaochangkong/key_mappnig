@@ -3,7 +3,7 @@
 #include "encryption/default_encryption.hpp"
 #include <memory>
 
-std::unique_ptr<EncryptionStrategy> createEncryptionStrategy(bool useDefault = true)
+std::unique_ptr<EncryptionStrategy> createEncryptionStrategy(bool useDefault)
 {
     // 目前只有一种加密策略，未来可以根据需要添加更多
     if (useDefault)

@@ -1,8 +1,8 @@
-// simple_hash.cpp - 轻量级自定义哈希算法实现
 #include "encryption/simple_hash.hpp"
 #include <sstream>
 #include <iomanip>
 #include <algorithm>
+// simple_hash.cpp - 轻量级自定义哈希算法实现
 
 // 核心哈希计算函数 - 使用简单的混合算法
 uint32_t SimpleHash::computeHash(const std::string &input)

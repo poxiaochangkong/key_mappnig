@@ -7,3 +7,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)  # 强制要求，不支持则报错
 set(CMAKE_CXX_EXTENSIONS OFF)        # 禁用编译器扩展
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
+
+add_executable(
+    key_mapping
+
+    src/main.cpp
+    src/encryption/encryption.cpp
+    src/encryption/simple_hash.cpp
+    src/encryption/default_encryption.cpp
+    )
