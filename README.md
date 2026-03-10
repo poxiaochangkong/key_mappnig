@@ -19,6 +19,10 @@ cmake --build . --config Release or cmake --build .
 
 ```
 bash
-> key_mapping 123 123                                        
+
+./key_mapping 123 123
 encrypted string: bb57285bb57285
+
+ ./key_mapping username google1
+encrypted string: 5d02cb5acc38f4
 ```
